@@ -1,0 +1,31 @@
+:root {
+    --dark: #1A1A1A;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.barra-navegacion {
+    height: 50px;
+}
+
+.barra-navegacion--dark {
+    background-color: var(--dark);
+}
+
+.barra-navegacion__enlaces {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.barra-navegacion__enlaces__enlace {
+    padding: 16px 5px;
+}
+
+.barra-navegacion__enlaces__enlace:link,
+.barra-navegacion__enlaces__enlace:visited {
+    text-decoration: none;
+    color: #FFFFFF;
+}
