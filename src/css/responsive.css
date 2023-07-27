@@ -1,1 +1,12 @@
 /* Hoja para manejar el diseño responsive. */
+
+@media (min-width: 768px) {
+    .barra-navegacion--s {
+        display: none;
+    }
+
+    .barra-navegacion--l {
+        display: flex;
+        justify-content: flex-end
+    }
+}

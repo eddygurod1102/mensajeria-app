@@ -1,0 +1,9 @@
+Se desea construir una red social para enviar y recibir mensajes de texto. Para poder enviar y recibirlos es necesario estar registrado en la red social (o sea, tener una cuenta), se desea saber datos generales de la persona a registrarse (nombre, apellido, edad, fecha de nacimiento, sexo, número de teléfono), una fotografía para su foto de perfil (opcional, si esta no se selecciona, se le dará una generica), y datos generales de la cuenta (nombre de usuario, correo electrónico, contraseña).
+
+Para que un usuario pueda enviar mensajes, es necesario que esté en una conversación. Para que se dé una conversación, es necesario que existan dos usuarios. Por lo que una conversación, tendrá los datos de ambos usuarios. Un usuario puede estar en varias conversaciones. Para que exista también una conversación entre dos usuarios, es necesario registrar los mensajes. De estos últimos se desea saber el mensaje en sí y quién lo envía. Una conversación puede tener muchos mensajes, pero un sólo mensaje puede pertenecer a una sóla conversación.
+
+Para el envío de mensajes, es necesario registrar el remitente, el texto del mensaje y el destinatario. Cabe mencionar que una persona le puede enviar muchos mensajes a otras personas, así como esta misma persona puede recibir muchos mensajes de otras.
+
+V 1.0:
+- Los perfiles que se vayan a crear no necesitarán cargar foto de perfil.
+- Sólo se podrán enviar mensajes de texto.

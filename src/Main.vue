@@ -4,6 +4,6 @@
 
 <template>
   <main>
-    <h1>Est&aacute;s en la p&aacute;gina de inicio</h1>
+    <router-view></router-view>
   </main>
 </template>
